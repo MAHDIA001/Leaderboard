@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
@@ -66,3 +67,6 @@ Give a star if you like this project!
 
 
 
+=======
+# review
+>>>>>>> 23827aed3e104fc128a0cb851341510e0fea9f5f

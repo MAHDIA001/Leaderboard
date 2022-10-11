@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.display-scores {
+  display: flex;
+}
+
+.refresh {
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.add-scores {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.add-btn {
+  margin-left: 120px;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: baseline;
+}
+
+.inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
