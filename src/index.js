@@ -7,7 +7,7 @@ const submit = document.querySelector('.add-btn');
 const refrsh = document.querySelector('.refresh');
 submit.addEventListener('click', (e) => {
   e.preventDefault();
-  app.add({ user: name.value, score: scoreInput.value, });
+  app.add({ user: name.value, score: scoreInput.value, },);
   name.value = '';
   scoreInput.value = '';
   setTimeout(() => {
