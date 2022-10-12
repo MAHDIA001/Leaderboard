@@ -1,5 +1,5 @@
-const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const gameID = 'games/Zl4d7IVkemOTTVg2fUdz/scores/';
+const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
+const gameID = 'hjQ1d7tYqYfYNIn76Anu';
 const send = async (Name, Score) => {
   const connect = await fetch(`${URL}/${gameID}/scores`, {
     method: 'POST',

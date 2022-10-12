@@ -12,7 +12,7 @@ submit.addEventListener('click', (e) => {
   scoreInput.value = '';
   setTimeout(() => {
     refrsh.click();
-  }, 2000);
+  }, 1000);
 });
 refrsh.addEventListener('click', () => {
   app.display();
