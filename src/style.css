@@ -13,6 +13,7 @@ h1 {
 
 .wrapper {
   display: flex;
+  justify-content: center;
 }
 
 .display-scores {
