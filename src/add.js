@@ -1,17 +1,23 @@
-const add = () => {
-  const name = document.querySelector('.name');
-  const scoreInput = document.querySelector('.score-input');
-  const submit = document.querySelector('.add-btn');
+import * as gameAPI from './gameAPI.js';
+
+const display = () => {
   const show = document.querySelector('.show');
-  submit.addEventListener('click', () => {
-    const p = document.createElement('li');
-    const p2 = document.createElement('p');
-    p.innerHTML = `${name.value}:`;
-    show.appendChild(p);
-    p2.innerHTML = scoreInput.value;
-    p.appendChild(p2);
-    p2.innerHTML = scoreInput.value;
-    p2.classList.add('inline');
+  show.innerHTML = '';
+  gameAPI.get().then((dataList) => {
+    if (!dataList) {
+      return;
+    }
+    const high = dataList.result.sort((a, b) => b.score - a.score);
+    high.forEach((data) => {
+      const li = document.createElement('li');
+      li.innerHTML = `<p>${data.user}: ${data.score}</p>`;
+      show.appendChild(li);
+    });
   });
 };
-export default add;
+
+const add = (data) => {
+  gameAPI.send(data.user, data.score);
+};
+
+export { add, display };
