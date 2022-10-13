@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LeaderBoard</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeaderBoard</title>
 </head>
+
 <body>
   <h1>LeaderBoard</h1>
-  
-  <div class="display-scores">
-    <h2>Recent Scores</h2>
-    <label for="button"><button class="refresh">refresh</button></label>
-  </div>
-  <ul class="show"></ul>
-  <div class="add-scores">
-    <h2>add your scores</h2>
-    <label for="input"><input type="text" class="name" required placeholder="your name"></label>
-    <label for="input"><input type="number" class="score-input" required placeholder="your score"></label>
-    <label for="button"><button class="add-btn" type="submit">submit</button></label>
+  <div class="wrapper">
+    <div class="display-scores">
+      <div class="ref">
+        <h2>Recent Scores</h2>
+        <label for="button"><button class="refresh">refresh</button></label>
+      </div>
+      <div class="ul">
+        <ul class="show"></ul>
+      </div>
+    </div>
+    <div class="add-scores">
+      <h2 class="add-your-score">add your scores</h2>
+      <label for="input"><input type="text" rows="3" cols="10" class="name"  placeholder="your name" required/></label>
+      <label for="input"><input type="number" class="score-input"  placeholder="your score" required/></label>
+      <label for="button"><button class="add-btn" type="submit">submit</button></label>
+    </div>
   </div>
 </body>
 </html>
