@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
@@ -9,8 +8,8 @@
 - HTML
 - CSS
 - Javascript
-- flexbox
--Grid
+- API
+-JSON objects
 
 
 
@@ -20,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
  download node.js code editor and etc
 ### Setup
  type the following command into your command lind
- git clone https://github.com/MAHDIA001/Book-store.git
+ git clone https://github.com/MAHDIA001/Leaderboard.git
 ### Install
 Run the following commands to install dependencies
 
@@ -45,7 +44,7 @@ npx eslint --fix .
 
 ### Deployment
 
-check it out [](https://mahdia001.github.io/Capstone-Project/)
+
 
 ## Author
 
@@ -65,8 +64,3 @@ Feel free to check the [issues page](https://github.com/MAHDIA001/Book-store/iss
 Give a star if you like this project!
 
 
-
-
-=======
-# review
->>>>>>> 23827aed3e104fc128a0cb851341510e0fea9f5f
