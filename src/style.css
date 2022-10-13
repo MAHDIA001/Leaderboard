@@ -46,8 +46,8 @@ h2 {
 }
 
 .refresh:hover {
-   color: #fff;
-   background-color: #666;
+  color: #fff;
+  background-color: #666;
 }
 
 .ul {
@@ -66,10 +66,10 @@ h2 {
 }
 
 .show li {
-   gap: 2px;
-   margin: 0;
-   padding: 0;
-   color: #666;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  color: #666;
 }
 
 .add-scores {
@@ -102,7 +102,7 @@ input {
 
 .add-btn:hover {
   color: #fff;
-   background-color: #666;
+  background-color: #666;
 }
 
 .inline {
