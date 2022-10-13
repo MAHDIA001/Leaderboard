@@ -8,7 +8,7 @@ h1 {
   font-size: 40px;
   margin-left: 10px;
   margin-bottom: 50px;
-  color: #666666;
+  color: #666;
 }
 
 .wrapper {
@@ -25,7 +25,7 @@ h2 {
   font-weight: 400;
   font-size: 27px;
   margin-left: 10px;
-  color: #666666;
+  color: #666;
 }
 
 .ref {
@@ -39,21 +39,21 @@ h2 {
   margin-left: 30px;
   padding: 7px;
   cursor: pointer;
-  border: 1px solid #666666;
+  border: 1px solid #666;
   border-radius: 8px;
-  color: #666666;
+  color: #666;
   background: #fff;
 }
 
 .refresh:hover {
   color: #fff;
-   background-color:  #666666;
+   background-color:  #666;
 }
 
 .ul {
   box-sizing: border-box;
   padding: 20px;
-  border: 2px solid #666666;
+  border: 2px solid #666;
   width: 100%;
   display: flex;
 }
@@ -69,7 +69,7 @@ h2 {
  gap: 2px;
  margin: 0;
  padding: 0;
- color: #666666;
+ color: #666;
 }
 
 .add-scores {
@@ -85,15 +85,15 @@ input {
   margin-left: 20px;
   width: 200px;
   height: 30px;
-} 
+}
 
 .add-btn {
   margin-left: 140px;
   margin-top: 20px;
   cursor: pointer;
-  border: 1px solid #666666;
+  border: 1px solid #666;
   border-radius: 8px;
-  color: #666666;
+  color: #666;
   background: #fff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 18px;
@@ -102,7 +102,7 @@ input {
 
 .add-btn:hover {
   color: #fff;
-   background-color:  #666666;
+   background-color:  #666;
 }
 
 .inline {
